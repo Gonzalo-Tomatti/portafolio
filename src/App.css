@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans:400|Quattrocento:700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quattrocento", serif;
+}
+
+.p {
+  margin-bottom: 0;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(234, 229, 224);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(45, 45, 43);
+  border-radius: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(45, 45, 43, 0.8);
+}
+
+/* HEADER */
+header {
+  height: 70vh;
+  background: linear-gradient(
+    177deg,
+    rgba(0, 0, 255, 0.6),
+    rgb(138, 170, 229) 75% 80%,
+    #fff 80%
+  );
+}
+
+.links a {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.welcome {
+  width: 45rem;
+  height: 45rem;
+}
+
+/* PROJECTS */
+.projects {
+  background: linear-gradient(177deg, #fff 10%, #fbeaeb 10% 90%, #fff 90%);
+}
+
+/* SKILLS */
+
+.tech {
+  margin-right: 1rem;
+  min-width: 5rem;
+}
+
+.html,
+.css,
+.js,
+.bootstrap,
+.react,
+.git,
+.github {
+  font-size: 2.5rem;
+}
+
+.html {
+  color: #e8632a;
+}
+
+.css {
+  color: rgb(0, 107, 192);
+}
+
+.bootstrap {
+  color: #7f14f3;
+}
+
+.js {
+  color: rgb(247, 223, 30);
+}
+
+.react {
+  color: rgb(95, 210, 241);
+}
+
+.github {
+  color: black;
+}
+
+.git {
+  color: rgb(231, 80, 51);
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 5rem;
+}
+.label {
   color: white;
+  font-size: 0.75em;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.3rem;
+  width: 4rem;
+  height: 1.5rem;
+}
+.thumbnail {
+  width: 18rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.thumbnail:hover {
+  transform: scale(1.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* CONTACT */
+#contact {
+  background: #fff;
+}
+.form-input {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  width: 100%;
+  outline: none;
+}
+
+.textarea {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 576px) {
+  /* CONTACT */
+  .form-input {
+    width: 17rem;
   }
 }
