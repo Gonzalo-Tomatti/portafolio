@@ -8,11 +8,9 @@ const Projects = () => {
       title: "Slot Machine",
       labels: ["Html5", "Css3", "Javascript", "React"],
       description: `Como el nombre lo indica, esta app es una slot machine que permite
-jugar por diversión con dinero ficticio. Cuenta con tres filas de íconos que giran al
-hacer click en "play" y paran después de 2.4s. Al combinar tres
-copias iguales de un mismo ícono horizontalmente en cualquiera de
-las tres filas suma la cantidad de dinero apostada multiplicada
-por el valor del ícono y de la fila.`,
+      jugar por diversión con dinero ficticio. 
+
+      Además de emplear las funcionalidades típicas de React como hooks y componentes, hice uso de la API context que este provee para manejar el estado del proyecto.`,
       thumbnail: slot,
       live: "https://web-dev-slot.netlify.app/",
       github: "https://github.com/Gonzalo-Tomatti/slot-machine",
@@ -22,7 +20,7 @@ por el valor del ícono y de la fila.`,
       labels: ["Html5", "Css3", "Bootstrap", "Javascript", "React"],
       description: `Esta es una página dedicada a la exhibición de artículos de vitrofusión (objetos decorativos hechos con vidrio).
 
-      Cuenta con 12 categorías mostradas en el menú principal. Al entrar a cada una se pueden recorrer todas las fotos pertenecientes a la categoría elegida. Estas fotos se cargan de a 8 por página y, en caso de haber más, se muestra la paginación para recorrer la categoría.`,
+      La hice implementando varias características de React como la división de funcionalidad con componentes, el uso de hooks y react router. El estilo está hecho con bootstrap y css personalizado.`,
       thumbnail: grace,
       live: "https://grace-vitrofusion.netlify.app/",
       github: "https://github.com/Gonzalo-Tomatti/grace-vitrofusion",
@@ -37,7 +35,7 @@ por el valor del ícono y de la fila.`,
             <div className="col col-md-6">
               <h2>{p.title}</h2>
               {p.labels.map((l, index) => (
-                <span key={index} className="label rounded-pill bg-dark">
+                <span key={index} className="label rounded-pill bg-secondary">
                   {l}
                 </span>
               ))}

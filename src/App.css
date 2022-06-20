@@ -68,6 +68,14 @@ header {
   height: 45rem;
 }
 
+.links .cv {
+  border: transparent;
+  background: transparent;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 /* PROJECTS */
 .projects {
   background: linear-gradient(177deg, #fff 10%, #fbeaeb 10% 90%, #fff 90%);
@@ -124,8 +132,8 @@ header {
 }
 .label {
   color: white;
-  font-size: 0.75em;
-  padding: 0.3rem 0.5rem;
+  font-size: 0.8em;
+  padding: 0.2em 0.5em;
   margin-right: 0.3rem;
   width: 4rem;
   height: 1.5rem;

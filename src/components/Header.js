@@ -25,11 +25,14 @@ const Header = () => {
               >
                 <FaLinkedin />
               </a>
+              {/*<a className="cv" href="./cv.pdf" download="GONZALO TOMATTI - CV">
+                CV
+  </a>*/}
               <a href="#contact">
                 <FaEnvelope />
               </a>
             </div>
-            <p>Amo diseñar y crear cosas para la web.</p>
+            <p>Amo idear y crear cosas para la web.</p>
           </div>
         </div>
       </div>
