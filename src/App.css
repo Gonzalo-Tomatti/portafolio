@@ -94,8 +94,14 @@ header {
 .bootstrap,
 .react,
 .git,
-.github {
+.github,
+.npm {
   font-size: 2.5rem;
+}
+
+.ts {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .html {
@@ -124,6 +130,10 @@ header {
 
 .git {
   color: rgb(231, 80, 51);
+}
+
+.npm {
+  color: red;
 }
 
 /* PROJECTS */

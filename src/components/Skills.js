@@ -7,7 +7,9 @@ import {
   FaGithub,
   FaGitAlt,
   FaJs,
+  FaNpm,
 } from "react-icons/fa";
+import ts from "../images/typescript-logo.png";
 
 const Skills = () => {
   return (
@@ -27,16 +29,23 @@ const Skills = () => {
           <div className="tech">
             <FaJs className="js" /> <p>Javascript</p>
           </div>
-        </div>
-        <div className=" d-sm-flex justify-content-center mt-3">
           <div className="tech">
             <FaReact className="react" /> <p>ReactJs</p>
           </div>
+        </div>
+        <div className=" d-sm-flex justify-content-center align-items-center mt-3">
           <div className="tech">
             <FaGithub className="github" /> <p>GitHub</p>
           </div>
           <div className="tech">
             <FaGitAlt className="git" /> <p>Git</p>
+          </div>
+          <div className="tech">
+            <FaNpm className="npm" /> <p>NPM</p>
+          </div>
+          <div className="tech">
+            <img className="ts" src={ts} alt="ts logo" />
+            <p>TypeScript</p>
           </div>
         </div>
       </div>
