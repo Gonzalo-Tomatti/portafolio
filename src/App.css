@@ -47,12 +47,18 @@ h5 {
 
 /* HEADER */
 header {
-  height: 70vh;
-  background: linear-gradient(
+  height: 40vh;
+  min-height: 13rem;
+  /* background: linear-gradient(
     177deg,
     rgba(0, 0, 255, 0.6),
     rgb(138, 170, 229) 75% 80%,
     #fff 80%
+  ); */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 255, 0.6),
+    rgb(138, 170, 229)
   );
 }
 
@@ -78,7 +84,8 @@ header {
 
 /* PROJECTS */
 .projects {
-  background: linear-gradient(177deg, #fff 10%, #fbeaeb 10% 90%, #fff 90%);
+  /* background: linear-gradient(177deg, #fff 10%, #fbeaeb 10% 90%, #fff 90%); */
+  background-color: #fbeaeb;
 }
 
 /* SKILLS */

@@ -37,9 +37,9 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="projects text-center py-5">
+    <div className="projects text-center pt-3 pb-1">
       <div className="container">
-        <h1 className="mb-3">Proyectos</h1>
+        <h1 className="m-3">Proyectos</h1>
         {projects.map((p, index) => (
           <div key={index} className="row project">
             <div className="col col-md-6">

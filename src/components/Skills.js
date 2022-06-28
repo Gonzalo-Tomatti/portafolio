@@ -14,7 +14,6 @@ import ts from "../images/typescript-logo.png";
 const Skills = () => {
   return (
     <div className="container text-center">
-      <h1 className="mb-4">Tecnologías</h1>
       <div className="d-flex justify-content-center d-sm-block mb-4">
         <div className=" d-sm-flex justify-content-center mt-3">
           <div className="tech">
