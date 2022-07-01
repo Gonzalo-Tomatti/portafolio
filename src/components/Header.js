@@ -13,7 +13,8 @@ const Header = () => {
           <div className="col col-lg-6 d-flex flex-column justify-content-center">
             <h1>
               Hola, soy Gonzalo.
-              <span className="d-block">Desarrollador Frontend.</span>
+              <br></br>
+              Desarrollador Frontend.
             </h1>
             <div className="links ">
               <a href="https://github.com/Gonzalo-Tomatti" target="_blank">

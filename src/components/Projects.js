@@ -2,9 +2,19 @@ import React from "react";
 import slot from "../images/slot-machine-thumbnail.png";
 import grace from "../images/grace-vitrofusion-thumbnail.png";
 import cocktail from "../images/cocktail-collection-thumbnail.png";
+import atardecer from "../images/atardecer-thumbnail.png";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Cocktail Collection",
+      labels: ["Html5", "Css3", "Bootstrap", "Typescript", "React"],
+      description: `Está página utiliza la API TheCocktailDB.
+      Según la categoría o bebida elegida, se cambia el endpoint para traer y mostrar las bebidas correspondientes.`,
+      thumbnail: cocktail,
+      live: "https://the-cocktail-collection.netlify.app/",
+      github: "https://github.com/Gonzalo-Tomatti/cocktails",
+    },
     {
       title: "Slot Machine",
       labels: ["Html5", "Css3", "Javascript", "React"],
@@ -27,13 +37,12 @@ const Projects = () => {
       github: "https://github.com/Gonzalo-Tomatti/grace-vitrofusion",
     },
     {
-      title: "Cocktail Collection",
+      title: "Atardecer",
       labels: ["Html5", "Css3", "Bootstrap", "Typescript", "React"],
-      description: `Está página utiliza la API TheCocktailDB.
-      Según la categoría o bebida elegida, se cambia el endpoint para traer y mostrar las bebidas correspondientes.`,
-      thumbnail: cocktail,
-      live: "https://the-cocktail-collection.netlify.app/",
-      github: "https://github.com/Gonzalo-Tomatti/cocktails",
+      description: `Esta app muestra una serie de edificios que se vuelven de color verde cuando tienen vista al atardecer. Además muestra un dato curioso sobre el número del edificio más alto que va cambiando a medida que cambian las alturas.`,
+      thumbnail: atardecer,
+      live: "https://atardecer.netlify.app/",
+      github: "https://github.com/Gonzalo-Tomatti/atardecer",
     },
   ];
   return (
