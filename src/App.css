@@ -101,16 +101,20 @@ header {
 .bootstrap,
 .react,
 .git,
-.github,
+.nodejs,
 .npm {
   font-size: 2.5rem;
 }
 
-.ts {
+.ts,
+.mongo {
   width: 2.5rem;
   height: 2.5rem;
 }
 
+.nodejs {
+  color: #529943;
+}
 .html {
   color: #e8632a;
 }

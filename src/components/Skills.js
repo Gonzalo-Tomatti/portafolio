@@ -8,8 +8,10 @@ import {
   FaGitAlt,
   FaJs,
   FaNpm,
+  FaNodeJs,
 } from "react-icons/fa";
 import ts from "../images/typescript-logo.png";
+import mongo from "../images/mongodb-logo.png";
 
 const Skills = () => {
   return (
@@ -34,9 +36,6 @@ const Skills = () => {
         </div>
         <div className=" d-sm-flex justify-content-center align-items-center mt-3">
           <div className="tech">
-            <FaGithub className="github" /> <p>GitHub</p>
-          </div>
-          <div className="tech">
             <FaGitAlt className="git" /> <p>Git</p>
           </div>
           <div className="tech">
@@ -45,6 +44,13 @@ const Skills = () => {
           <div className="tech">
             <img className="ts" src={ts} alt="ts logo" />
             <p>TypeScript</p>
+          </div>
+          <div className="tech">
+            <FaNodeJs className="nodejs" /> <p>NodeJs</p>
+          </div>
+          <div className="tech">
+            <img className="mongo" src={mongo} alt="mongoDB logo" />
+            <p>MongoDB</p>
           </div>
         </div>
       </div>

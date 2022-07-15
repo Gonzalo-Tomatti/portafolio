@@ -7,6 +7,25 @@ import atardecer from "../images/atardecer-thumbnail.png";
 const Projects = () => {
   const projects = [
     {
+      title: "Grace Vitrofusion",
+      labels: [
+        "Html5",
+        "Css3",
+        "Bootstrap",
+        "Javascript",
+        "React",
+        "NodeJs",
+        "Express",
+        "MongoDB",
+      ],
+      description: `Esta página simula un e-commerce dedicado a la venta de artículos de vitrofusión.
+
+      La hice implementando varias características de React como el uso de componentes, hooks, context y react router. Para el almacenamiento de datos usé NodeJs con el framework Express y MongoDB para la base de datos.`,
+      thumbnail: grace,
+      live: "https://grace-vitrofusion.netlify.app/",
+      github: "https://github.com/Gonzalo-Tomatti/grace-vitrofusion",
+    },
+    {
       title: "Cocktail Collection",
       labels: ["Html5", "Css3", "Bootstrap", "Typescript", "React"],
       description: `Está página utiliza la API TheCocktailDB.
@@ -26,16 +45,7 @@ const Projects = () => {
       live: "https://web-dev-slot.netlify.app/",
       github: "https://github.com/Gonzalo-Tomatti/slot-machine",
     },
-    {
-      title: "Grace Vitrofusion",
-      labels: ["Html5", "Css3", "Bootstrap", "Javascript", "React"],
-      description: `Esta es una página dedicada a la exhibición de artículos de vitrofusión (objetos decorativos hechos con vidrio).
 
-      La hice implementando varias características de React como la división de funcionalidad con componentes, el uso de hooks y react router. El estilo está hecho con bootstrap y css personalizado.`,
-      thumbnail: grace,
-      live: "https://grace-vitrofusion.netlify.app/",
-      github: "https://github.com/Gonzalo-Tomatti/grace-vitrofusion",
-    },
     {
       title: "Atardecer",
       labels: ["Html5", "Css3", "Bootstrap", "Typescript", "React"],
