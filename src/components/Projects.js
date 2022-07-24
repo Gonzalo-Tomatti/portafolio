@@ -3,6 +3,7 @@ import slot from "../images/slot-machine-thumbnail.png";
 import grace from "../images/grace-vitrofusion-thumbnail.png";
 import cocktail from "../images/cocktail-collection-thumbnail.png";
 import atardecer from "../images/atardecer-thumbnail.png";
+import scheduler from "../images/scheduler-thumbnail.png";
 
 const Projects = () => {
   const projects = [
@@ -24,6 +25,25 @@ const Projects = () => {
       thumbnail: grace,
       live: "https://grace-vitrofusion.netlify.app/",
       github: "https://github.com/Gonzalo-Tomatti/grace-vitrofusion",
+    },
+    {
+      title: "Scheduler",
+      labels: [
+        "Html5",
+        "Css3",
+        "Bootstrap",
+        "Javascript",
+        "React",
+        "NodeJs",
+        "Express",
+        "MongoDB",
+      ],
+      description: `Scheduler te permite crear horarios para grupos que tienen que realizar actividades sin que dos grupos tengan la misma actividad al mismo tiempo.
+
+      La página utiliza Html5, Css3, Bootstrap y Javascript con la librería React.js para el frontend. Para el backend utiliza NodeJs con el framework Express y MongoDB para la base de datos.`,
+      thumbnail: scheduler,
+      live: "https://big-scheduler.netlify.app/",
+      github: "https://github.com/Gonzalo-Tomatti/scheduler",
     },
     {
       title: "Cocktail Collection",
