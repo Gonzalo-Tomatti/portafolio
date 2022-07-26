@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="">Sobre mí</h1>
       <p>
         Mi nombre es Gonzalo y vivo en City Bell, Buenos Aires. Actualmente
-        programo websites usando React.JS. Desde el momento en que imprimí
+        programo websites usando el stack MERN. Desde el momento en que imprimí
         "Hello World" en la pantalla de mi primera aplicación, empezó a crecer
         mi pasión por el mundo de la programación. Pero el desarrollo de
         software no es solo un hobby para mí, sino que ofrece un desafío de

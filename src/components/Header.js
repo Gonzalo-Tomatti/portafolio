@@ -14,7 +14,7 @@ const Header = () => {
             <h1>
               Hola, soy Gonzalo.
               <br></br>
-              Desarrollador Frontend.
+              Desarrollador Fullstack.
             </h1>
             <div className="links ">
               <a href="https://github.com/Gonzalo-Tomatti" target="_blank">
